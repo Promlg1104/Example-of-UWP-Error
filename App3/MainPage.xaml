@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="App3.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <!--
+        Not used by Reproducible Example but used in normal code
+        <TextBlock FontSize="30" Text="Login" HorizontalAlignment="Center" Height="40" VerticalAlignment="Top" Margin="0,250,0,0" TextAlignment="Center"/>
+        <TextBox x:Name="adress" HorizontalAlignment="Center" Height="42" Margin="0,310,0,0" TextWrapping="Wrap" PlaceholderText="Server Adresse (IP or Hostname)" VerticalAlignment="Top" Width="325"/>
+        <TextBox x:Name="username" HorizontalAlignment="Center" Height="42" Margin="0,360,0,0" TextWrapping="Wrap" PlaceholderText="Username" VerticalAlignment="Top" Width="325"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Center" Height="42" Margin="0,410,0,0" PlaceholderText="Passwort" VerticalAlignment="Top" Width="325"/>
+        
+        -->
+        <Button HorizontalAlignment="Center" Height="42" Margin="0,460,0,0" Click="Login_Click" x:Name="Login" VerticalAlignment="Top" Width="325">Test</Button>
+    </Grid>
+</Page>
