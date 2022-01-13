@@ -41,8 +41,8 @@ namespace App3
                     {
                         ContentDialog server_error = new ContentDialog()
                         {
-                            Title = "Server Fehler",
-                            Content = "Fehler bei der Verbindung mit dem Server.\x0AÜberprüfe deine Internet verbindung oder deine Eingaben und versuche es erneut!\x0AFehler: " + ex.Message,
+                            Title = "Server Error",
+                            Content = "Error While Connecting to the server. " + ex.Message,
                             CloseButtonText = "Ok"
                         };
                         await server_error.ShowAsync();
